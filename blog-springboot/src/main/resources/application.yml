@@ -11,8 +11,8 @@ spring:
     type: com.zaxxer.hikari.HikariDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/blog?serverTimezone=Asia/Shanghai&allowMultiQueries=true
-    username: root
-    password: qq85591662.
+    username: 
+    password: 
     hikari:
       minimum-idle: 5
       # 空闲连接存活最大时间，默认600000（10分钟）
@@ -30,12 +30,12 @@ spring:
       connection-test-query: SELECT 1
   # redis配置
   redis:
-    host: 47.115.216.231
+    host: 
     port: 6379
-    password: qq85591662.
+    password: 
 #   mq配置
   rabbitmq:
-    host: 47.115.216.231
+    host: 
     port: 5672
     username: guest
     password: guest
@@ -49,12 +49,12 @@ spring:
   # 邮箱配置
   mail:
     host: smtp.qq.com
-    username: 2224921390@qq.com
-    password: ewrwdpghoiipdjfh
+    username: 
+    password: 
     default-encoding: UTF-8
     port: 587
     properties:
-      mail: 2224921390@qq.com
+      mail:
       smtp:
       auth: true
       socketFactory:
@@ -86,11 +86,11 @@ upload:
     # 本地文件存储路径
     path: /usr/local/upload/
   oss:
-    url: http://magua-blog.oss-cn-guangzhou.aliyuncs.com/
-    endpoint: oss-cn-guangzhou.aliyuncs.com
-    accessKeyId:  LTAI5t8L4bbFLtNqL2HdZhCk
-    accessKeySecret:  rupikKrbjSa1XeNE29Ae0u7MgtcNHd
-    bucketName: magua-blog
+    url: 
+    endpoint: 
+    accessKeyId:
+    accessKeySecret:  
+    bucketName: 
 
 # 网站前台域名（邮件通知用）
 website:
